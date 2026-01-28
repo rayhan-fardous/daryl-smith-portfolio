@@ -62,3 +62,67 @@ nav a{
   padding: 10px;
   border-radius: 5px;
 }
+
+/* Hero Section */
+#hero{
+  display: flex;
+}
+.hero-buttons-container{
+  background-color: #121414;
+  align-items: center;
+  justify-content: center;
+  padding: 78px 30px;
+}
+.hero-buttons{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.hero-buttons i{
+  color: #646464;
+}
+.hero-image-container{
+  max-width: 368px;
+}
+.hero-image{
+  position: relative;
+  background-color: black;
+  width: 368px;
+  height: 460px;
+  overflow: hidden;
+}
+.hero-image img{
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.social-container{
+  padding: 10px;
+  justify-items: center;
+  background-color: black;
+}
+.social-icons i{
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #121414;
+  color: #C5C5C5;
+  transition: color 0.3s ease background-color 0.3s ease;
+}
+.social-icons i:hover{
+  color: #F89222;
+  background-color: #1F2221;
+}
+.social-icons div{
+  display: flex;
+  gap: 10px;
+}
+
+.hero-content{
+  padding: 40px 48px;
+}
